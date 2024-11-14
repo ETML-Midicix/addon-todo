@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "OneMoreTime",
+    "version": "0.0.0",
+    "description": "Descriptiona area",
+    "permissions": ["identity"],
+    "host_permissions": [],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "48": "images/icon-48.png",
+            "128": "images/icon-128.png"
+        }
+    },
+    "icons": {
+        "16": "images/icon-16.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{19ac518d-ff3f-45f6-b5a8-536a4456b493}",
+            "strict_min_version": "109.0"
+        }
+    },
+    "author": "ETML-Midicix"
+}
