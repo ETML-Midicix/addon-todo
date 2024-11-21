@@ -4,6 +4,8 @@
 name: Node.js CI
 
 on:
+  tags:
+    - 'v[0-9]+.[0-9]+.[0-9]+'
   push:
     branches: [ "main" ]
   pull_request:
