@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     const redirectUri = chrome.identity.getRedirectURL(); 
     const scopes = 'openid profile User.Read Files.ReadWrite'; 
     let token;
-    console.log(redirectUri);
+    console.log(redirectUri + "");
     
     const authUrl = `https://login.microsoftonline.com/${tenantId}/oauth2/v2.0/authorize?client_id=${clientId}&response_type=token&redirect_uri=${encodeURIComponent(redirectUri)}&scope=${encodeURIComponent(scopes)}`;
     try {
