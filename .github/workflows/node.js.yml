@@ -28,7 +28,6 @@ jobs:
       with:
         node-version: '22.x'
     - run: npm install
-    - run: npm run pack:ff
     - name: Run pack:ff 
       env:
         AMO_JWT_ISSUER: ${{ secrets.AMO_JWT_ISSUER }}
